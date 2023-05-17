@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+#logo{
+    margin: 52px 0 0 56px;
+    
+}
+#title-menutop{
+    margin-left: 172px;
+    margin-top: 71px;
+    
+}
+#text-menutop{
+    margin-left: 172px;
+    margin-top: 32px;
+    padding-bottom: 105px;
+    
+}
+#menu-top{
+    background-image: url(imagens/back-menutop.svg);
+    color: white;
+}
+#menu-info{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+.icone{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    padding: 15px;
+}
+.text-icon{
+   display: flex; 
+   align-items: center;
+}
+#secao-video{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#title-video{
+    color: #247BA0;
+    margin-top: 75px;
+}
+#video{
+    margin: 50px 25px 50px 100px;
+}
+#carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+#title-carrossel{
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    
+    
+}
+#cards{
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+    
+}
+.card{
+    margin-left: 50px;
+    
+}
+#seta-e{
+    display: none;
+}
+#c3{
+    display: none;
+}
+.seta{
+    margin-top: 70px;
+    cursor: pointer;
+}
+.seta:hover{
+    transform: translateX(7px);
+    transition: .5s;
+
+}
+#seta-e:hover{
+    transform: translateX(-7px);
+    transition: .5s;
+}
+#form{
+    text-align: center;
+}
+#title-form{
+    font-size: 32px;
+    margin: 25px;
+    color: #383838;
+}
+input{
+    margin-bottom: 25px;
+    background-color: #EAECE5;
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+button{
+    background-color: #247BA0;
+    height: 40px;
+    width: 250px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 100px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: #38a9da;
+    transform: translateY(-7px);
+    transition: .5s;
+    cursor: pointer;
+    box-shadow: 0 15px 20px #375663;
+}
